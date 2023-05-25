@@ -3,8 +3,11 @@ This repository contains a comprehensive unit converter webpage built using HTML
 
 Features
 User-Friendly Interface: The unit converter webpage offers a clean and intuitive interface, ensuring a smooth user experience. The layout is designed to be responsive and adaptable to various screen sizes, making it accessible on both desktop and mobile devices.
+
 Multiple Conversion Categories: The unit converter supports a wide range of conversion categories, including length, weight, temperature, time. Users can easily select the desired conversion category from a dropdown menu.
+
 Dynamic Conversion: Upon selecting the conversion category and entering the value to be converted, the webpage dynamically updates the results in real-time. This eliminates the need for manual submissions, providing instant and accurate conversions.
+
 Well-Organized Codebase: The repository follows best practices for structuring code, separating concerns, and maintaining clean code. JavaScript is utilized for handling conversions and updating the results, ensuring efficient and performant calculations.
 
 Usage
