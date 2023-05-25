@@ -27,20 +27,6 @@ const conversionRates = {
             minute: 60
         }
     },
-    temperature: {
-        celsius: {
-            fahrenheit: 1.8,
-            kelvin: 1
-        },
-        fahrenheit: {
-            celsius: 5 / 9,
-            kelvin: 5 / 9 + 273.15
-        },
-        kelvin: {
-            celsius: 1 - 273.15,
-            fahrenheit: 9 / 5 - 459.67
-        }
-    },
     weight: {
         gram: {
             kilogram: 0.001,
