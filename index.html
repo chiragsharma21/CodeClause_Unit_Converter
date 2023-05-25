@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unit Converter</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Unit Converter</h1>
+        <div class="converter">
+            <div class="input-group">
+                <input type="number" id="inputValue" placeholder="Enter value">
+                <select id="categorySelect">
+                    <option value="length">Length</option>
+                    <option value="time">Time</option>
+                    <option value="temperature">Temperature</option>
+                    <option value="weight">Weight</option>
+                </select>
+                <select id="inputUnit"></select>
+            </div>
+            <div class="arrow">
+                <i class="fas fa-exchange-alt"></i>
+            </div>
+            <div class="input-group">
+                <input type="text" id="outputValue" readonly>
+                <select id="outputUnit"></select>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
